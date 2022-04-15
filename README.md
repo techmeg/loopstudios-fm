@@ -17,7 +17,7 @@ about color overlays/gradients for the images.
 
 ### Screenshot
 
-![Screenshot](./Screenshot-loopstudios.png)
+![Screenshot](./screenshot-loop-studios.png)
 
 ### Links
 
