@@ -39,11 +39,16 @@
         <img src="./images/logo.svg" alt="logo" class="logo" />
         <button
           class="nav-toggle"
-          aria-controls="nav"
+          aria-controls="primary-nav"
           aria-expanded="false"
           aria-label="Menu"
         ></button>
-        <nav id="nav" class="nav" data-visible="false" aria-expanded="false">
+        <nav
+          id="primary-nav"
+          class="nav"
+          data-visible="false"
+          aria-expanded="false"
+        >
           <ul>
             <li><a href="#">About</a></li>
             <li><a class="nav_link" href="#">Careers</a></li>
@@ -59,7 +64,7 @@
       </h1>
     </header>
     <main class="main">
-      <section class="intro">
+      <section id="introduction" class="intro">
         <img
           src="./images/mobile/image-interactive.jpg"
           alt="young man wearing VR headset"
@@ -74,7 +79,7 @@
           </p>
         </div>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <h2 class="section_title projects_title">Our creations</h2>
         <ul class="projects_list">
           <li id="earth" class="project_img">
@@ -109,7 +114,7 @@
       </section>
       <footer class="footer">
         <img src="./images/logo.svg" alt="logo" class="logo" />
-        <nav class="footer_nav">
+        <nav id="footer-navigation" class="footer_nav">
           <ul>
             <li><a class="nav_link" href="#">About</a></li>
             <li><a class="nav_link" href="#">Careers</a></li>
