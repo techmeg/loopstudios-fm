@@ -13,7 +13,8 @@ The designs were created to the following widths:
 
 - White: hsl(0, 0%, 100%)
 - Black: hsl(0, 0%, 0%)
-- Dark Gray: hsl(0, 0%, 55%)
+- Dark Gray: hsl(0, 0%, 55%) // #8c8c8c; does not meet accessibility; changed to
+  #717171 for intro paragraph
 - Very Dark Gray: hsl(0, 0%, 41%)
 
 ### Neutral
@@ -34,7 +35,8 @@ The designs were created to the following widths:
 
 ## Icons
 
-We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
+We provide the required social icons. But, if you prefer, you can use a font
+icon library. Some suggestions can be found below:
 
 - [Font Awesome](https://fontawesome.com)
 - [IcoMoon](https://icomoon.io)
