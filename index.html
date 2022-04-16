@@ -36,7 +36,7 @@
   <body>
     <header class="header" data-transparent="true">
       <div class="navbar">
-        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <img src="./images/logo.svg" alt="loop studios" class="logo" />
         <button
           class="nav-toggle"
           aria-controls="primary-nav"
@@ -48,6 +48,7 @@
           class="nav"
           data-visible="false"
           aria-expanded="false"
+          aria-label="primary nav"
         >
           <ul>
             <li><a href="#">About</a></li>
@@ -83,38 +84,35 @@
         <h2 class="section_title projects_title">Our creations</h2>
         <ul class="projects_list">
           <li id="earth" class="project_img">
-            <h3 class="project_name">Deep <br />earth</h3>
+            <p class="project_name">Deep earth</p>
           </li>
           <li id="arcade" class="project_img">
-            <h3 class="project_name">Night <br />Arcade</h3>
+            <p class="project_name">Night Arcade</p>
           </li>
           <li id="soccer" class="project_img">
-            <h3 class="project_name">Soccer<br />Team VR</h3>
+            <p class="project_name">Soccer Team VR</p>
           </li>
           <li id="grid" class="project_img">
-            <h3 class="project_name">
-              The<br />
-              Grid
-            </h3>
+            <p class="project_name">The Grid</p>
           </li>
           <li id="above" class="project_img">
-            <h3 class="project_name">From Up <br />Above VR</h3>
+            <p class="project_name">From Up Above VR</p>
           </li>
           <li id="borealis" class="project_img">
-            <h3 class="project_name">Pocket <br />Borealis</h3>
+            <p class="project_name">Pocket Borealis</p>
           </li>
           <li id="curiosity" class="project_img">
-            <h3 class="project_name">The <br />Curiosity</h3>
+            <p class="project_name">The Curiosity</p>
           </li>
           <li id="fisheye" class="project_img">
-            <h3 class="project_name">Make It <br />Fisheye</h3>
+            <p class="project_name">Make It Fisheye</p>
           </li>
         </ul>
         <button class="all">See all</button>
       </section>
       <footer class="footer">
         <img src="./images/logo.svg" alt="logo" class="logo" />
-        <nav id="footer-navigation" class="footer_nav">
+        <nav id="footer-navigation" class="footer_nav" aria-label="footer nav">
           <ul>
             <li><a class="nav_link" href="#">About</a></li>
             <li><a class="nav_link" href="#">Careers</a></li>

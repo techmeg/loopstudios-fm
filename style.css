@@ -87,7 +87,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+.project_name {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   line-height: 1;
@@ -271,7 +272,7 @@ section h2 {
   position: absolute;
   text-align: left;
   text-transform: uppercase;
-  width: 40%;
+  max-width: 11ch;
 }
 .all {
   border: 1px solid black;
@@ -473,7 +474,7 @@ section h2 {
     font-size: clamp(1.4em, 3vw, 2.2em);
     left: 10%;
     bottom: 5%;
-    width: 100%;
+    max-width: 100%;
   }
 
   .all {
